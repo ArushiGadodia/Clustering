@@ -6,7 +6,32 @@ This repository includes the comparative analysis of different clustering algori
 - **Calinski-Harabasz Index**
 - **Davies-Bouldin Index**
 
+
+### Evaluation Tables
+
+Below are the tables displaying the clustering results for each algorithm:
+
+#### 1. **KMeans Clustering** Results
+
+![KMeans Clustering Table](./images/kmeans_table.png)
+
+#### 2. **Agglomerative Clustering** Results
+
+![Agglomerative Clustering Table](./images/agglomerative_table.png)
+
+#### 3. **DBSCAN Clustering** Results
+
+![DBSCAN Clustering Table](./images/dbscan_table.png)
+
+#### 4. **MeanShift Clustering** Results
+
+![MeanShift Clustering Table](./images/meanshift_table.png)
+
 The results are visualized in boxplots, and tables are included for detailed metrics across different cluster counts and preprocessing techniques.
+
+#### 5. **GaussianMixture Clustering** Results
+
+![GaussianMixture Clustering Table](./images/gaussian_mixture_table.png)
 
 ## Comparative Boxplots
 
@@ -35,28 +60,4 @@ From the boxplots, the following inferences can be made:
 - **MeanShift** shows poor performance overall, especially in the Calinski-Harabasz and Davies-Bouldin metrics, indicating that it does not form well-separated clusters in most cases.
 
 - **Gaussian Mixture** tends to show moderate performance, with some variation in results depending on the preprocessing method.
-
-### Evaluation Tables
-
-Below are the tables displaying the clustering results for each algorithm:
-
-#### 1. **KMeans Clustering** Results
-
-![KMeans Clustering Table](./images/kmeans_table.png)
-
-#### 2. **Agglomerative Clustering** Results
-
-![Agglomerative Clustering Table](./images/agglomerative_table.png)
-
-#### 3. **DBSCAN Clustering** Results
-
-![DBSCAN Clustering Table](./images/dbscan_table.png)
-
-#### 4. **MeanShift Clustering** Results
-
-![MeanShift Clustering Table](./images/meanshift_table.png)
-
-#### 5. **GaussianMixture Clustering** Results
-
-![GaussianMixture Clustering Table](./images/gaussian_mixture_table.png)
 
